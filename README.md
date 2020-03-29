@@ -20,5 +20,3 @@ Where appropriate, input from the user should be validated.
 6. Displays the number of points the player has when the game ends.
 7. Stores the name of the player and their score in an external file.
 8. Displays the score and player name of the top 5 winning scores from the external file.
-
-# 
