@@ -1,5 +1,5 @@
 # noelsgame
-This is an attempt at *task 1* of the *Programming Project Tasks* in the *OCR June 2019 and June 2020 series* paper using the MEAN stack. The usage of a stack allows for the frontend and backend to be completely modular of each other (other than any key data that needs to be exchanged either way, such as user credentials).
+This is an attempt at task 1 of the Programming Project Tasks in the OCR June 2019 and June 2020 series paper using the MEAN stack. The usage of a stack allows for the frontend and backend to be completely modular of each other (other than any key data that needs to be exchanged either way, such as user credentials).
 
 # Summary of Task 1 (from paper)
 #### Noel is creating a music quiz game. The game stores a list of song names and their artist (e.g. the band or solo artist name). The player needs to try and guess the song name.
