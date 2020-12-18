@@ -1,0 +1,60 @@
+<html>
+<!-- Scripts -->
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <script src="js/login.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <meta charset="ISO-8859-1">
+	<script src="js/gotogame.js"></script>
+
+    <!-- Other header stuff -->
+    <title>Noel's Music Game</title>
+</head>
+
+<!-- Body // Content -->
+<body>
+    
+
+    <!-- Actual information content -->
+    <h1>You have reached Noel's Game</h1>
+    <p>The game stores a list of song names and their artist
+        (e.g. the band or solo artist name). The player needs to
+        try and guess the song name.</br></br>
+        The game is played as follows:</br>
+        <ul>
+        A random song name and artist are chosen.</br></br>
+        The artist and the first letter of each word in the song title are displayed.</br></br>
+        The user has two chances to guess the name of the song.</br></br>
+        If the user guesses the answer correctly the first time, they score 3 points. If the user guesses
+        the answer correctly the second time they score 1 point. The game repeats.</br></br>
+        The game ends when a player guesses the song name incorrectly the second time</br></ul></p>
+    <button id="playgame" onclick="gotogame()">Press to play the game</button>
+
+    <h5>Hey, listen!, did you know my name is Noel?</h5>
+
+    <!-- Pop-up for people to log in -->
+    <div id="loginpopup">
+        <!-- Div that holds the traditional password-username login box so it can be aligned with any other form of authentication-->
+        <div id="traditionallogin">
+            <!-- form for login -->
+            <form id="login" method="post" action="">
+                <!-- Input for username-->
+                <input id="username" name="username" type="text" placeholder="Username" autocomplete="off"/>
+                <!-- Input for password-->
+                <input id="password" name="password" type="password" placeholder="Password" autocomplete="off" />
+                <!--Input for the submit button -->
+                <input id="submit" type="submit" value="Log in" />
+            </form>
+            <!-- Button that takes user to page to create account, and stores the current url so it can take them back after-->
+            <p id="createaccount">No account? Click me!</p>
+        </div>
+    </div>
+    <!-- A small information box that will pop up with relevant info when called with js -->
+    <div id="infobox">
+        <p id="infobox_text"> Try again later</p>
+    </div>
+</body>
+</html>

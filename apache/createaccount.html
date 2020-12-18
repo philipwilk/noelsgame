@@ -1,0 +1,33 @@
+<html>
+<!-- Scripts -->
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <script src="js/createaccount.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/createaccount.css">
+</head>
+
+<body>
+    <div id="loginpopup">
+        <!-- Div that holds the traditional password-username account creation box -->
+        <div id="traditionallogin">
+            <!-- form for creating an account -->
+            <form id="createaccount" method="post" action="">
+                <!-- Input for username-->
+                <input id="username" name="username" type="text" placeholder="Username" autocomplete="username" />
+                <!-- Input for password-->
+                <input id="password" name="password" type="password" placeholder="Password" autocomplete="new-password" />
+                <!-- Input for confirmation of password-->
+                <input id="passwordconfirmation" name="password" type="password" placeholder="Password" autocomplete="new-password" />
+                <!--Input for the submit button -->
+                <input id="submit" type="submit" value="Create" />
+            </form>
+        </div>
+    </div>
+    <!-- A small information box that will pop up with relevant info when called with js -->
+    <div id="infobox">
+        <p id="infobox_text"> Try again later</p>
+    </div>
+</body>
+
+</html>

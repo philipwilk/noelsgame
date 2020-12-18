@@ -1,0 +1,36 @@
+body {
+    background-color: lightslategray;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+h5 {
+    position: absolute;
+    left: 12px;
+    margin: 0 0;
+    bottom: 5px;
+}
+
+h1 {
+    position: relative;
+    left: 5px;
+    margin: 0 0;
+    color: orange;
+}
+
+button {
+    margin: 0 0;
+    position: relative;
+    left: 5px;
+    color: orange;
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    font-size: 2em;
+}
+
+p {
+    margin: 0 0;
+    position: relative;
+    left: 5px;
+}

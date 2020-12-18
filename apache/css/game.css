@@ -1,0 +1,171 @@
+body {
+    background-color: #323232;
+}
+
+#heading {
+    text-align: center;
+    font-family: Oxygen;
+    font-weight: lighter;
+    color: darkgray;
+    margin-bottom:10vh;
+    text-decoration-line:underline;
+}
+
+#Prettier_Song_Name {
+    margin: 0 0;
+}
+
+#song_name {
+    text-align: center;
+    font-size: 3vw;
+    font-family: Oxygen;
+    font-weight: normal;
+    color: darkgray;
+    margin-bottom: 0;
+}
+
+#album_art {
+    background-color: black;
+    width: 12vw;
+    height: 12vw;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 0.25vh;
+    margin-top: 1.25vh;
+}
+
+#Prettier_Artist_Name {
+    margin-top: 6vh;
+}
+
+#artist_name {
+    text-align: center;
+    font-size: 3vw;
+    color: darkgray;
+    font-family: Oxygen;
+}
+
+#Prettier_input_box {
+    margin-top: 6vh;
+}
+
+#input_box {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    background-color: #323232;
+    border-color: darkgray;
+    border-style: solid;
+    color: darkgray;
+    border-radius: 0.25vh;
+    font-size: 1.2vw;
+    width: 20vw;
+}
+
+    #input_box:hover {
+        border-color: antiquewhite;
+        color: antiquewhite;
+    }
+
+#submit_box {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    color: darkgray;
+    background-color: #323232;
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 0.25vh; 
+    font-size: 1.25vw; 
+}
+
+    #submit_box:hover {
+        border-color: antiquewhite;
+        color: antiquewhite;
+    }
+
+#Prettier_releaes_date {
+    margin-top: 2vh;
+    position:fixed;
+}
+
+#release_date {
+    margin: 0 0 ;
+    color: darkgray;
+    text-align: center;
+    font-family: Oxygen;
+    font-weight: lighter;
+}
+
+#Prettier_score_and_lives{
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 6vw;
+    height: auto;
+    border-color: peachpuff;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-top-style: none;
+}
+
+#score {
+    font-family: Oxygen;
+    font-weight: lighter;
+    text-align: left;
+    color: darkgray;
+    margin-left: 1vw;
+    font-size: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    position: relative;
+}
+
+#lives {
+    font-family: Oxygen;
+    font-weight: lighter;
+    text-align: left;
+    color: darkgray;
+    margin-left: 1vw;
+    font-size: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    position: relative;
+}
+
+#scoreboard {
+    font-family: Oxygen;
+    font-weight: lighter;
+    background-color: transparent;
+    border-color: peachpuff;
+    border-style: solid;
+    text-align: left;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+    color: darkgray;
+    position: relative;
+}
+
+#artbutton {
+    font-family: Oxygen;
+    font-weight: lighter;
+    background-color: transparent;
+    border-color: peachpuff;
+    border-style: solid;
+    text-align: center;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: darkgray;
+    top:0;
+    left: 0;
+    position: fixed;
+}

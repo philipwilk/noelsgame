@@ -1,0 +1,69 @@
+<html>
+<head>
+	<script src="js/login.js"></script>
+	<script src="js/checkuser.js"></script>
+	<script src="js/gamecode.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	<title>Noel's Music Game</title>
+	<link rel="stylesheet" href="css/game.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+	<!-- Pop-up for people to log in -->
+    <div id="loginpopup">
+        <!-- Div that holds the traditional password-username login box so it can be aligned with any other form of authentication-->
+        <div id="traditionallogin">
+            <!-- form for login -->
+            <form id="login" method="post" action="">
+                <!-- Input for username-->
+                <input id="username" name="username" type="text" placeholder="Username" autocomplete="username"/>
+                <!-- Input for password-->
+                <input id="password" name="password" type="password" placeholder="Password" autocomplete="password" />
+                <!--Input for the submit button -->
+                <input id="submit" type="submit" value="Log in" />
+            </form>
+            <!-- Button that takes user to page to create account, and stores the current url so it can take them back after-->
+            <p id="createaccount">No account? Click me!</p>
+        </div>
+    </div>
+    <!-- A small information box that will pop up with relevant info when called with js -->
+    <div id="infobox">
+        <p id="infobox_text"> Try again later</p>
+    </div>
+	<!-- Everything else -->
+    <div id="content" style="display:none;">
+		<h1 id="heading">Noel's Music Quiz Game</h1>
+
+		<div id="Prettier_Song_Name"> 
+			<p id="song_name">Example song.</p>
+		</div>
+
+		<div id="Prettier_release_date">
+    		<p id="release_date">Release date: abcd</p>
+		</div>
+
+	
+
+		<div id="Prettier_Artist_Name">
+			<p id="artist_name">Example artist.</p>
+		</div>
+
+		<div id="Prettier_input_box">
+        	<form id="song_submit" method="post" action>
+				<input id="input_box" type="text" autocomplete="off" placeholder="Enter song name here. . .">
+				<input id="submit_box" type="submit" value="Submit answer." onclick="submitgame();">
+        	</form>
+		</div>
+
+		<div id="Prettier_score_and_lives">
+    		<p id="score"></p>
+    		<p id="lives"></p>
+        	
+    		<button id="scoreboard" onclick="gotoscoreboard()">Scoreboard</button>
+		</div>
+	</div>
+
+</body>
+</html>

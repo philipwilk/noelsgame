@@ -1,0 +1,43 @@
+body {
+    background-color: #323232;
+}
+
+#heading {
+    text-align: center;
+    font-family: Oxygen;
+    font-weight: lighter;
+    color: darkgray;
+    margin-bottom:10vh;
+    text-decoration-line:underline;
+}
+
+.username {
+    font-family: Oxygen;
+    color: darkgray;
+}
+
+.score {
+    font-family: Oxygen;
+    color: darkgray;
+}
+
+#scores {
+    width: 80%;
+    height: 60%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 8vw;
+}
+
+#play {
+    font-family: Oxygen;
+    font-weight: lighter;
+    background-color: transparent;
+    border-color: peachpuff;
+    border-style: solid;
+    text-align: center;
+    left: 1vw;
+    top: 1.5vh;
+    color: darkgray;
+    position: fixed;
+}
