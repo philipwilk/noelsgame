@@ -20,3 +20,14 @@ Where appropriate, input from the user should be validated.
 6. Displays the number of points the player has when the game ends.
 7. Stores the name of the player and their score in an external file.
 8. Displays the score and player name of the top 5 winning scores from the external file.
+
+
+
+### Requirements:
+- A web server (any will do, I used Apache)
+- Nodejs
+# How to set up:
+- Go through all the javascript files (for the frontend) under apache and set *tld* to your own domain at the bottom of each script which a declaration for *tld*, with the domain you want to use for the API/node backend, and in the .env file under node (for the backend) set the *tld* to the domain you want to use for the frontend webserver.
+- Run the files in apache on the web server and the files in node in nodejs.
+
+Due to how CORS works on Chromium, it's necessary for you to have https set up for node for everything to play nicely when using credentials. Therefore, you must have encryption for both the frontend server and backend. This is relatively easy to set up using letsencrypt when using apache, getting a free certificate and having certbot set it all set up for you, and to then use another domain (or url if you're feeling fancy) that is set up similarly and set it up using proxypass/reverseproxypass to passthrough to your node instance.
